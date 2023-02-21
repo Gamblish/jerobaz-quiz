@@ -1,0 +1,27 @@
+.App {
+	animation: bg-animation 300s linear infinite;
+	width: 100vw;
+	height: 100vh;
+	background-size: 33%;
+	background-image: url('../images/Background.png');
+	background-repeat: repeat;
+	overflow: hidden;
+}
+
+
+
+@keyframes bg-animation {
+	0% {
+		background-size: 33%;
+		background-position: 0% 0%;
+
+	}
+
+
+
+	100% {
+		background-size: 33%;
+		background-position: 3000% 3000%;
+
+	}
+}
